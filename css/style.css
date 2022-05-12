@@ -86,31 +86,63 @@ main{
     height: 100px;
     width: 100%;
     display: flex;
+    color:white;    
 }
 
-.user-actions-rx{
-    color: #fff;
+.audio-video{
     width: 20%;
+    height: 100%;
+    align-items: center;
 }
 
-.user-actions-cx {
-    color: #fff;
+.audio-video .fa-solid{
+    font-size: 30px;
+    padding-left: 30px;
+    padding-bottom: 5px;
+}
+
+.user-actions{
     width: 60%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+
 }
 
-.user-actions-sx {
-    color: #fff;
+.user-actions .fa-solid{
+    font-size: 30px;
+    padding-left: 30px;
+    padding-bottom: 5px;
+}
+
+.text-icons{
+    padding-left: 20px;
+}
+
+.fa-user-group{
+    padding-left: 100px;
+}
+
+.fa-angle-up{
+    font-size: 5px;
+}
+
+.chat{
+    padding-left: 50px;
+}
+.fa-share-from-square{
+    color: rgb(10, 225, 10);
+}
+
+.ending{
     width: 20%;
     height: 100%;
-    width: 500px;
+    justify-content: end;
 }
 
-.icons {
-    flex-wrap: wrap;
-}
-
-.end-meeting{
-    display: block;
-    height: 100%;
-    width: 100px;
+.end-btn{
+    color:red;
+    background-color: #494949;
+    padding: 5px 10px;
+    cursor: pointer;
 }
