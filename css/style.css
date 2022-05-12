@@ -12,6 +12,7 @@ body{
     display: flex;
 }
 
+/* HEADER */
 .head-container {
     background-color: black;
     position: fixed;
@@ -21,13 +22,39 @@ body{
     z-index: 1;
 }
 
+.btns{
+    justify-content: end;
+    align-items: center;
+    height: 100px;
+}
+
+.btn {
+    background-color: #494949;
+    border-radius: 10px;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 5px 10px;
+    cursor: pointer;
+}
+
+.fa-table-cells{
+    font-size: 20px;
+    padding-right:5px;
+}
+
+
+/* MAIN */
 main{
     background-color: rgb(32, 32, 32);
 }
 
 .main-container{
     height: 100vh;
-    padding:100px 0px;
+    padding:130px 0px 100px 0px;
     flex-wrap: wrap;
     justify-content: center;
     width: 90%;
@@ -74,4 +101,16 @@ main{
 .user-actions-sx {
     color: #fff;
     width: 20%;
+    height: 100%;
+    width: 500px;
+}
+
+.icons {
+    flex-wrap: wrap;
+}
+
+.end-meeting{
+    display: block;
+    height: 100%;
+    width: 100px;
 }
