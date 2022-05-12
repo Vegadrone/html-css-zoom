@@ -4,69 +4,56 @@
     box-sizing: border-box;
 }
 
-.head-container{
-    background-color: black;
-    position: fixed;
+body{
+    overflow: hidden;
+}
+
+.flex-container{
     display: flex;
-    color: #fff;
-    display: inline-block;
 }
-
-.btn{
-    color: #fff;
-}
-
-/* MAIN */
 
 main{
-    height: 100wh;
+    background-color: rgb(32, 32, 32);
 }
 
 .main-container{
-    width: 90%;
-    display: flex;
+    height: 100vh;
+    padding:100px 0px;
     flex-wrap: wrap;
     justify-content: center;
+    width: 90%;
     margin: 0 auto;
+    overflow: auto;
 }
 
-.cam{
-    margin-bottom:20px ;
-    margin-right: 10px ;
+.cam {
+    margin-bottom: 20px;
+    margin-right: 10px;
     position: relative;
 }
 
-.user-name{
-    position:absolute;
-    bottom:6px;
+.user-name {
+    position: absolute;
+    bottom: 6px;
     background-color: rgba(94, 94, 94, 0.5);
     padding: 5px;
     color: #fff;
-
 }
 
-
-/* FOOTER */
-
-footer{
-    
+.head-container{
+    background-color: black;
+    position: fixed;
+    height: 100px;
+    width: 100%;
+    color: white;
+    z-index: 1;
 }
 
 .footer-container{
-    
-    background-color: rgb(28, 28, 28);
-    color: #fff;
-    display: flex;
-}
-
-.user-actions-dx{
-    flex-grow: 1;
-}
-
-.user-actions-cx {
-    flex-grow: 3;
-}
-
-.user-actions-sx {
-    flex-grow: 1;
+    background-color: black;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    height: 100px;
+    width: 100%; 
 }
