@@ -4,6 +4,61 @@
     box-sizing: border-box;
 }
 
-body{
+.head-container{
+    background-color: black;
+    position: fixed;
+    display: flex;
+    color: #fff;
+    display: inline-block;
+}
+
+.btn{
+    color: #fff;
+}
+
+/* MAIN */
+
+main{
+    height: 100wh;
+}
+
+.main-container{
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+.cam{
+    margin-bottom: 10px;
+    margin-left: 20px ;
+    height: 146px;
+    width: 246px;
     background-color: aqua;
+}
+
+
+/* FOOTER */
+
+footer{
+    
+}
+
+.footer-container{
+    
+    background-color: rgb(28, 28, 28);
+    color: #fff;
+    display: flex;
+}
+
+.user-actions-dx{
+    flex-grow: 1;
+}
+
+.user-actions-cx {
+    flex-grow: 3;
+}
+
+.user-actions-sx {
+    flex-grow: 1;
 }
